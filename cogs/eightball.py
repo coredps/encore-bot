@@ -34,13 +34,6 @@ class EightBall(commands.Cog):
 
         if 'gay' in question:
             await ctx.send('gei is u')
-            return
-
-
-        if '8thie' in question:
-            await ctx.send('eSpice 8thies more like jokers')
-            return
-
 
         if 'enc0re{' in question:
             await ctx.channel.purge(limit=1)
